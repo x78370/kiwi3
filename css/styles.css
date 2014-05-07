@@ -95,9 +95,21 @@ Footer
 footer p {
 	font: 10px/16px 'arial', sans-serif;
 }
+.container {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.chart {
+  position: relative;
+  display: inline-block;
+}
+
+
 .chart img {
   position: absolute;
   max-width: 100px;
   max-height: 100px;
-  background: white;
+  background: none;
 }
+
